@@ -1,0 +1,102 @@
+.cuarta_pagina{
+    
+    background-color: $color5;
+
+    header{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3{
+
+            margin-top: 15%;
+            font-size: 40px;
+
+
+        }
+        p{
+
+            margin-top: 5%;
+            width: 50%;
+          
+        }
+
+    }
+
+    main{
+        //background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10%;
+        position: relative;
+        .c1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            margin: 1% 0 1%;
+            input{
+                outline: transparent;
+                width: 49%;
+                color:$color2;
+                background: transparent;
+                border-style: none none solid;
+                border-color: $color3;
+            }
+            input::placeholder{
+                color:$color2;
+            }
+        }
+        .c
+        {
+
+            width: 100%;
+            input{
+                width: 100%;
+                outline: transparent;
+                margin: 1% 0 1%;
+                color:$color2;
+                background: transparent;
+                border-style: none none solid;
+                border-color: $color3;
+            }
+            input::placeholder{
+                color:$color2;
+            }
+            textarea{
+                width: 100%;
+                background: transparent;
+                border-style: none none solid;
+                border-color: $color3;
+                outline: transparent;
+                color: $color2;
+            }
+            p
+            {
+                margin-top: 10px;
+                color:$color2;
+            }
+
+        }
+        .boton
+        {
+            //width: 10%;
+            position: relative;
+            left: 47%;
+            text-align: right;
+            p
+            {
+                background: $color3;
+                margin-top: 10px;
+                color:$color2;
+                padding: 10px;
+                border-radius: 3px;
+            }
+        }
+    }
+
+}
